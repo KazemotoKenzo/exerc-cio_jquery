@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", system-ui;
+}
+
+body {
+    padding: 100px;
+    background-color: antiquewhite;
+}
+
+.container{
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    justify-content: center;
+}
+
+header h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+header img{
+    height: 80px;
+    margin-right: 24px;
+}
+
+form {
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    margin: 0 8px;
+    margin-bottom: 24px;
+}
+
+#atividade{
+    width: 100%;
+}
+
+form input {
+    padding: 8px;
+    margin-right: 8px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#data {
+    width: 180px;
+}
+
+#horas {
+    width: 150px;
+}
+
+form button{
+    padding: 8px;
+    width: 200px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(65, 128, 209);
+}
+
+form button:hover{
+    background-color: rgb(114, 173, 228);
+    border-color: aliceblue;
+}
+
+li, .marca {
+    display: flex;
+    font-size: 18px;
+    padding: 0 24px;
+}
+
+li {
+    cursor: pointer;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    margin-bottom: 24px;
+    text-decoration: none;
+}
+
+li:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.marca p{
+    margin-left: 14px;
+}
